@@ -14,7 +14,7 @@ while (1)
     {
            /*DDRB = DDRA = 0xff;
            PORTA = 0X01;
-           PORTB = 0X07F; */ 
+           PORTB = 0X07F;*/ 
            
            showR();
            showLaugh();
