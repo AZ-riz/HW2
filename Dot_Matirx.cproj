@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>6.1</ProjectVersion>
     <ToolchainName>com.HPInfoTech.CodeVisionAVR.C</ToolchainName>
-    <ProjectGuid>{8789A2C9-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
+    <ProjectGuid>{159D50CB-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
     <avrdevice>ATmega32</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -37,6 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Dot_Matirx.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Header.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
